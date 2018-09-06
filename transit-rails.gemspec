@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
     # Work around most recent versions not working with java
     spec.add_dependency "transit-ruby", "~> 0.8", "<= 0.8.591"
   else
-    spec.add_dependency "transit-ruby", "~> 0.8", ">= 0.8.602"
+    spec.add_dependency "transit-ruby", "0.8.dev"
   end
 
   spec.add_development_dependency "bundler", "~> 1.6"
